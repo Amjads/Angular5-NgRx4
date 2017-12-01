@@ -1,6 +1,6 @@
 import { AppPage } from './app.po';
 
-describe('metis App', () => {
+describe('app App', () => {
   let page: AppPage;
 
   beforeEach(() => {
@@ -9,6 +9,6 @@ describe('metis App', () => {
 
   it('should display welcome message', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to metis!');
+    expect(page.getParagraphText()).toEqual('Welcome to app!');
   });
 });

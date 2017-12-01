@@ -118,13 +118,13 @@
     "directive-selector": [
       true,
       "attribute",
-      "metis",
+      "app",
       "camelCase"
     ],
     "component-selector": [
       true,
       "element",
-      "metis",
+      "app",
       "kebab-case"
     ],
     "angular-whitespace": [true, "check-interpolation"],
